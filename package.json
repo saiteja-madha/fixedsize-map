@@ -1,6 +1,6 @@
 {
   "name": "fixedsize-map",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Sai Teja M",
   "license": "ISC",
   "description": "A simple in memory size cache to hold fixed number of key value pairs",
@@ -19,6 +19,6 @@
   "keywords": [
     "cache",
     "fixed-size-cache",
-	"fixedsize-map"
+    "fixedsize-map"
   ]
 }
