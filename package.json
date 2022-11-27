@@ -1,7 +1,7 @@
 {
-  "name": "fixedsize-map-x",
+  "name": "fixedsize-map",
   "version": "1.0.1",
-  "author": "Sai Teja M/ShadowX",
+  "author": "Sai Teja M",
   "license": "ISC",
   "description": "A simple in memory size cache to hold fixed number of key value pairs",
   "main": "index.js",
@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Anonghost720/fixedsize-map.git"
+    "url": "git+https://github.com/saiteja-madha/fixedsize-map.git"
   },
   "bugs": {
-    "url": "https://github.com/Anonghost720/fixedsize-map/issues"
+    "url": "https://github.com/saiteja-madha/fixedsize-map/issues"
   },
-  "homepage": "https://github.com/Anonghost720/fixedsize-map#readme",
+  "homepage": "https://github.com/saiteja-madha/fixedsize-map#readme",
   "keywords": [
     "cache",
     "fixed-size-cache",
