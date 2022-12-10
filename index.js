@@ -57,4 +57,4 @@ class FixedSizeMap {
   }
 }
 
-module.exports = Cache;
+module.exports = FixedSizeMap;
