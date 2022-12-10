@@ -1,4 +1,4 @@
-class Cache {
+class FixedSizeMap {
   /**
    * The max number of keys this cache can hold
    * @param {number} size
