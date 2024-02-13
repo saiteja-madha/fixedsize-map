@@ -24,6 +24,10 @@ declare class FixedSizeMap<K, V> {
      * Removed the key value entry from this cache corresponding to the specified key
      */
     remove(key: K): void;
+    /**
+     * Clears this cache
+     */
+    clear(): void;
 }
 
 export = FixedSizeMap;
