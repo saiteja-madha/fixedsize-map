@@ -55,6 +55,10 @@ class FixedSizeMap {
   remove(key) {
     this.map.delete(key);
   }
+
+  clear() {
+    this.map.clear();
+  }
 }
 
 module.exports = FixedSizeMap;
