@@ -4,8 +4,9 @@ class FixedSizeMap {
    * @param {number} size
    */
   constructor(size) {
-    if (isNaN(size)) throw new Error("Cache size must be a number");
-    if (size < 1) throw new Error("Cache size must at least be 1");
+    if (typeof size !== 'number' || size < 1 || !Number.isInteger(size)) {
+      throw new Error('Cache size must be an integer greater than 0');
+    }
     this.map = new Map();
     this.keys = new Array(size);
     this.currIndex = 0;
